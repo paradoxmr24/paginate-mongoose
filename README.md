@@ -124,7 +124,7 @@ Assuming you have already set up the Mongoose connection and defined a Mongoose 
 
 ```javascript
 const Contact = require('./models/Contact'); // Import the Mongoose model
-const Paginator = require('Paginator'); // Import the Paginator
+const Paginator = require('datasource-mongoose'); // Import the Paginator
 
 // Define the configurations
 const config = {

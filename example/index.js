@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const Paginator = require('paginate-mongoose');
+const Paginator = require('../index');
 const Contact = require('./models/Contact');
 
 const app = express();

@@ -146,7 +146,7 @@ async aggregate(stages) {
 Here's an example of how to use the `Paginator` class to query data from a MongoDB collection:
 
 ```javascript
-import Paginator from './paginate-mongoose';
+import Paginator from 'datasource-mongoose';
 
 // Assuming you have a Mongoose model defined as 'Contact'
 import Contact from './models/Contact.js';
